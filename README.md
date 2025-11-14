@@ -24,12 +24,9 @@ cd src
 ```
 Clone the following repositories.
 ```bash
-  git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git -b humble
-
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git -b humble
 git clone https://github.com/ROBOTIS-GIT/turtlebot3.git -b humble
-
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git -b humble
-
 git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git -b humble-devel
 ```
 Once cloned build them
@@ -55,5 +52,11 @@ The planner can be run using the following command
 ```bash
   ros2 run dwa_custom_planner dwa_custom_planner
 ```
+
+## Assigning a goal
+1. Open the RViz window started from the launch file
+2. Use "2D Goal Pose" tool
+3. Click anywhere in the map to set the goal
+
 
   
